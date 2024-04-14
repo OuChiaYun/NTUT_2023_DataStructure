@@ -1,0 +1,33 @@
+['27 luis', '8 kids', '40 kite']
+-----------------------------------------------
+==============
+(-99999,)(8,kids)(27,luis)(40,kite)(99999,)
+(-99999,)(27,luis)(40,kite)(99999,)
+(-99999,)(40,kite)(99999,)
+(-99999,)(99999,)
+Insert (88, luke)
+(-99999,)(8,kids)(27,luis)(40,kite)(88,luke)(99999,)
+(-99999,)(27,luis)(40,kite)(99999,)
+(-99999,)(40,kite)(99999,)
+(-99999,)(99999,)
+delete (40, kite)
+(-99999,)(8,kids)(27,luis)(88,luke)(99999,)
+(-99999,)(27,luis)(99999,)
+(-99999,)(99999,)
+Insert (27, eric)
+Key found in the skip lists and will not inert the new node
+(-99999,)(8,kids)(27,luis)(88,luke)(99999,)
+(-99999,)(27,luis)(99999,)
+(-99999,)(99999,)
+delete (45, lisa)
+Key not found in the skip lists and will not perform the deletion
+(-99999,)(8,kids)(27,luis)(88,luke)(99999,)
+(-99999,)(27,luis)(99999,)
+delete (27, luis)
+(-99999,)(8,kids)(88,luke)(99999,)
+(-99999,)(99999,)
+delete (8, kids)
+(-99999,)(88,luke)(99999,)
+(-99999,)(99999,)
+delete (88, luke)
+(-99999,)(99999,)
